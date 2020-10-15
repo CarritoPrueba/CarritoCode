@@ -8,7 +8,7 @@ $(document).ready(function () {
             buttons: true,
             dangerMode: true,
         })
-                .then((willDelete) => {
+                .then((willDelete) =>{
                     if (willDelete) {
                         eliminar(idp);
                         swal("Registro eliminado!!", {
